@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postal Code</title>
+
+    <link rel="stylesheet" href="Style_Index.css">
+</head>
+<body>
+
+
+    <nav class="nav">
+        <p>Find PostOffice & Mutual Fund</p>
+    </nav>
+
+
+
+<section class="mainSec">
+
+    <div class="form1">
+        <h2 class="fh2">Enter Your PostalCode & Scheme Code Here To find Result :</h2>
+        <form>
+           <label><input type="number" name="postalcode" placeholder="Pincode here.." required></label> 
+    
+            <input class="btn" type="submit" onclick="ShowResult(this.form); return false">
+            <p style="color: red; margin-left: 10px; display: none;" id="datafetch">*Data Fetching...</p>
+        </form>
+        <form>
+            <label><input type="number" name="schemeCode" placeholder="SchemeCode here.." required></label> 
+     
+             <input class="btn" type="submit" onclick="load(this.form); return false">
+             <p style="color: red !important; margin-left: 10px; display: none;" id="datafetchhh">*Data Fetching...</p>      
+         </form>
+
+    </div>
+
+    <div class="tab" id="tabdiv">
+
+        
+    </div>
+
+    <div class="info" id="info">
+
+       
+        
+    </div>
+
+</section>
+
+
+    
+    <script src="main.js">
+
+    </script>
+
+</body>
+</html>
+
+
+<!-- Jinil Prajapati -->

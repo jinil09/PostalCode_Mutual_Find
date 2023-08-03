@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+*{
+    font-family: 'Poppins' , sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+    text-decoration: none;
+}
+
+html{
+    /* font-size: 62.5%; */
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.nav{
+    width: 100%;
+    height: auto;
+    padding: .8rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav p{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.fh2{
+    margin-bottom: 0.1rem !important;
+}
+
+.mainSec{
+    
+    /* padding: 3rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* ------------------ */
+
+.mytab{
+    border-radius: 8px;
+    /* margin: 3rem 0; */
+}
+
+.mytab tr td{
+    border: 1px solid rgb(191, 190, 190);
+    border-radius: 8px;
+}
+
+.mytab td{
+    padding: 0.6rem;
+    font-size: medium;
+    background-color: aliceblue;
+    font-weight: 500;
+}
+
+.mytab th{
+    border-radius: 5px  ;
+    padding: 0.6rem;
+    font-size: large;
+    background-color: rgb(50, 132, 204);
+    font-weight: 900;
+}
+
+/* ---------------------- */
+
+.mytabM{
+    border-radius: 8px;
+    /* margin: 3rem 0; */
+}
+
+.mytabM tr td{
+    border: 1px solid rgb(191, 190, 190);
+    border-radius: 8px;
+}
+
+.mytabM td{
+    padding: 0.6rem;
+    font-size: medium;
+    background-color: aliceblue;
+    font-weight: 500;
+}
+
+.mytabM th{
+    border-radius: 5px  ;
+    padding: 0.6rem;
+    font-size: large;
+    background-color: rgb(51, 247, 87);
+    font-weight: 900;
+}
+
+/* --------------------------------- */
+.btn{
+    padding: 0.4rem;
+    background-color: rgb(54, 231, 54);
+    color: black;
+    font-size: larger;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+    margin-left: 2rem;
+    transition: 0.5s;
+}
+
+.btn:hover{
+
+    box-shadow: 2px 5px 9px rgba(0, 0, 0, 0.8);
+}
+
+.form1{
+    background-color: #e6e5e5;
+    color: black;
+    width: 100%;
+    padding: 3rem;
+    margin-top: 1rem;
+    display: flex;
+    /* align-items: center; */
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.tab{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+
+.form1 form{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.info{
+    width: 100%;
+    /* background-color: black; */
+    padding: 3rem;
+}
+
+.form1 form label input{
+    padding-left: 12px;
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+
+
+/* ---------------------- */
+@media (max-width:768px){
+    html{
+        font-size: 80%;
+    }
+
+    .tab{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+    
+    .subtebdiv{  
+        overflow-x: auto;
+        max-width: 90vw;
+    }
+
+    .form1{
+        gap: 0.5rem;
+    }
+
+    .form1 form{
+        margin-top: 2rem;
+        flex-direction: column;
+        justify-content: left;
+        /* align-items: center; */
+    }
+
+    .form1 form label{
+        font-size: large;
+    }
+
+    .form1 form label input{
+        padding-left: 12px;
+        padding: 5px;
+        border-radius: 6px;
+        border: 1px solid black;
+    }
+
+
+    .mytab{
+        width: 100%;
+        /* border-collapse: collapse;
+        border-radius: 10px; */
+
+    }
+
+    .mytab tr td{
+        padding: 0.5rem;
+        font-size: small;
+    }
+
+    .mytab th{
+        font-size: medium;
+        
+    }
+
+    /* ------------------------------ */
+    .mytabM{
+        width: 100%;
+        /* border-collapse: collapse;
+        border-radius: 10px; */
+
+    }
+
+    .mytabM tr td{
+        padding: 0.5rem;
+        font-size: small;
+    }
+
+    .mytabM th{
+        font-size: medium;
+        
+    }
+
+    /* -------------------------------- */
+
+    .btn{
+        
+        margin: 1.5rem 2rem;
+    }
+
+    .h44{
+        font-size: smaller;
+        font-weight: 300;
+    }
+    
+}
